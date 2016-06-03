@@ -23,7 +23,7 @@ OPTIONS
 Test
 ====
 
-To run the test you need to setup expressjs:
+To run the test you need to setup browser-sync:
 
     $ npm i
 
