@@ -1,0 +1,32 @@
+{
+  "name": "jquery-url-info-plugin",
+  "authors": [
+    "geniusfuna@163.com"
+  ],
+  "description": "jQuery plugin for get urls' infomation and show them",
+  "main": "url-info.js",
+  "keywords": [
+    "jQuery",
+    "url",
+    "info",
+    "plugin"
+  ],
+  "license": "MIT",
+  "homepage": "http://oilvs.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "jQuery": "^1.9"
+  },
+  "devDependencies": {
+    "bootstrap": "*",
+    "jQuery": "^1.9",
+    "browser-sync":"*"
+  }
+}
