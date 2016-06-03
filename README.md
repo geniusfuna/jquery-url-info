@@ -28,8 +28,8 @@ To run the test you need to setup expressjs:
     $ npm i
 
 then run :
-
-   $ ./browser-sync.sh
+    
+    $ ./browser-sync.sh
 
 And see the HTML page:
 
