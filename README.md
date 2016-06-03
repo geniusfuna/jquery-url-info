@@ -1,3 +1,6 @@
+# jquery-url-info
+jQuery plugin for get urls infomation and show them
+
 Usage
 =====
 
@@ -6,19 +9,30 @@ Usage
 OPTIONS
 -------
 
-* server: URL of `url-info` server Default server is `//url-info-staging.wpic-tools.com`.
+* server:  You should have API to get info.
+
+```json
+{
+    "description":"Find discount vitamins, supplements, health foods, beauty products & more! Vitacost.com is your place for health living & eating!",
+    "title":"Discount Vitamins, Supplements, Health Foods & More | Vitacost",
+    "screenshotUrl":"https://image-staging.wpic-tools.com/**.png",
+    "updated":"2016-06-01T16:00:06.593Z"
+}
+```
 
 Test
 ====
 
 To run the test you need to setup expressjs:
 
-    $ node install express
+    $ npm i
 
-then run the test file:
+then run :
 
-   $ node test.js
+   $ ./browser-sync.sh
 
 And see the HTML page:
 
-   http://localhost:8080/
+   http://localhost:8000/
+=======
+
